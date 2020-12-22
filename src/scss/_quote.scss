@@ -1,0 +1,41 @@
+.quote {
+    color: $color-text-secondary;
+    font-weight: $font-w-bold;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quote__inner {
+    padding: 68px;
+}
+.quote__text {
+    margin: 0 0 0 auto;
+    width: 270px;
+}
+.quote__word {
+    display: inline-block;
+    font-size: 72px;
+    line-height: 1;
+    &:nth-child(1) {
+        font-size: 60px;
+    }
+    &:nth-child(2) {
+        font-size: 36px;
+    }
+    &:nth-child(3) {
+        font-size: 20px;
+    }
+    &:nth-child(4) {
+        font-size: 50px;
+    }
+    &:nth-child(5) {
+        font-size: 36px;
+    }
+    &:nth-child(6) {
+        display: flex;
+        span {
+            padding-left: 10px;
+            font-size: 26px;
+        }
+    }
+}

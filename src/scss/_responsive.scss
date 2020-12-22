@@ -1,0 +1,342 @@
+@media screen and (max-width: 992px) {
+    .integration__img-last {
+        right: 0;
+    }
+    .integration__img img {
+        width: 100%;
+        height: auto;
+    }
+    .integration__circle {
+        padding-left: 0;
+    }
+    .integration__text{
+        margin-left: 0;
+    }
+    .infografic__title {
+        padding-bottom: 20px;
+    }
+    .infografic__title-small,
+    .map__title-small {
+        font-size: 30px;
+    }
+    .infografic__title-big,
+    .map__title-big {
+        font-size: 50px;
+    }
+    .quote__inner {
+        padding: 48px 25px;
+    }
+    .about {
+        padding: 200px 0 40px;
+    }
+    .about-progress {
+        margin: 10px 0 10px;
+    }
+    .aim__item {
+        flex-basis: 100%;
+        padding-bottom: 20px;
+        & .aim__item-img {
+            margin-left: -55px;
+        }
+        &:nth-child(even) {
+            &::after {
+                bottom: 50%;
+                transform: translateY(50%);
+            }
+            & .aim__item-img {
+                margin-left: 0;
+                margin-right: -55px;
+            }
+        }
+    }
+    .aim__item-img {
+        max-height: 190px;
+    }
+    .aim__item-title {
+        font-size: 44px;
+    }
+    .aim__item-descr {
+        font-size: 18px;
+    }
+    .aim__item-text hr {
+        margin: 9px 0;
+    }
+    .infografic__content {
+        overflow: visible;
+        margin-bottom: 50px;
+    }
+    .infografic__content-top {
+        margin-bottom: 40px;
+    }
+    .infografic__content-img {
+        flex-basis: 50%;
+        margin-left: -55px;
+        padding-right: 14px;
+    }
+    .infografic__img-3 {
+        bottom: -50%;
+        transform: translateY(50%);
+    }
+    .infografic__content-title {
+        font-size: 24px;
+        margin-bottom: 5px;
+        &::before {
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 11px;
+        }
+    }
+    .infografic__item-title {
+        font-size: 30px;
+    }
+    .infografic__item .gold-text {
+        font-size: 25px;
+    }
+    .infografic__item span {
+        font-size: 14px;
+    }
+    .integration__circle-title {
+        font-size: 50px;
+    }
+    .integration__circle-item img {
+        max-height: 184px;
+    }
+    .header__advantage-item {
+        padding: 24px;
+    }
+    .header__title {
+        font-size: 104px;
+    }
+    .developer-slogan {
+        margin: 18px 0 8px;
+    }
+    .header__subtitle {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header {
+        background-attachment: inherit;
+    }
+
+    .header__advantage {
+        display: none;
+    }
+    .header__title {
+        font-size: 64px;
+    }
+    .header__subtitle {
+        font-size: 16px;
+    }
+    .header__subtitle {
+        width: 151px;
+    }
+    .header__inner {
+        padding: 193px 15px 92px;
+    }
+    .about {
+        padding: 160px 0 20px;
+    }
+    .about-progress__list span {
+        font-size: 18px;
+    }
+    // quote
+    .quote {
+        background-attachment: inherit;
+    }
+    .quote__text {
+        width: 114px;
+    }
+    .quote__word {
+        display: inline-block;
+        font-size: 33px;
+        line-height: 1;
+        &:nth-child(1) {
+            font-size: 27px;
+        }
+        &:nth-child(2) {
+            font-size: 17px;
+        }
+        &:nth-child(3) {
+            font-size: 11px;
+        }
+        &:nth-child(4) {
+            font-size: 20px;
+        }
+        &:nth-child(5) {
+            font-size: 17px;
+        }
+        &:nth-child(6) {
+            display: flex;
+            span {
+                padding-left: 10px;
+                font-size: 13px;
+            }
+        }
+    }
+    .infografic__title-small,
+    .map__title-small {
+        font-size: 20px;
+    }
+    .infografic__title-big,
+    .map__title-big {
+        font-size: 35px;
+    }
+    .infografic__content-text p {
+        font-size: 11px;
+        height: 100px;
+        overflow: hidden;
+    }
+    .infografic__img-2 {
+        top: 50%;
+    }
+    .infografic__img-3 {
+        bottom: 0;
+    }
+    .infografic__item {
+        padding-bottom: 10px;
+        padding-right: 10px;
+    }
+    .infografic__item-title {
+        margin-bottom: 10px;
+    }
+    .infografic__item--special {
+        margin-left: 15px;
+        padding-bottom: 0;
+    }
+    .infografic__item .gold-text {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+    .integration__box {
+        padding-top: 0;
+    }
+    .integration__img::after {
+        content: none;
+    }
+    .integration__img .simpleParallax {
+        padding: 35px;
+    }
+    .integration {
+        padding-top: 40px;
+    }
+    .integration__img-last {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .integration__text {
+        flex-basis: 100%;
+        font-size: 13px;
+    }
+    .integration__img-last img {
+        position: absolute;
+        right: -300px;
+        bottom: -200px;
+        height: 400px;
+        width: auto;
+    }
+    .integration__circle {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .integration__circle-items {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .integration__circle-item img {
+        max-height: 90px;
+        max-width: 90px;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+    }
+    .integration__circle-title {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .aim__item-text {
+        margin-left: 0;
+    }
+    .aim__item-title {
+        font-size: 38px;
+    }
+    .aim__item-descr {
+        font-size: 14px;
+    }
+    .about__item-title {
+        font-size: 14px;
+    }
+    .infografic__title-small,
+    .map__title-small {
+        font-size: 18px;
+    }
+    .infografic__title-big,
+    .map__title-big {
+        font-size: 24px;
+    }
+    .map__title {
+        z-index: 2;
+    }
+    .infografic__content-img {
+        flex-basis: 30%;
+    }
+    .integration__img-last{
+        top: 40%;
+    }
+    .integration__img .simpleParallax {
+        padding: 20px;
+    }
+    .infografic__content-title {
+        font-size: 14px;
+        &::before {
+            content: none;
+        }
+    }
+    .infografic__img-2 {
+        height: 100px;
+        width: auto;
+        padding: 0;
+    }
+    .infografic__item-title {
+        font-size: 20px;
+    }
+    .infografic__content-bottom {
+        width: 100%;
+    }
+    .infografic__item-box {
+        flex-wrap: wrap;
+        align-items: self-end;
+    }
+    .infografic__item--special {
+        margin-left: 0;
+    }
+    .infografic__item {
+        flex-basis: 50%;
+        &:nth-child(4) {
+            flex-basis: 50%;
+        }
+    }
+    .integration__circle-item:nth-child(1) {
+        left: -24px;
+    }
+    .integration__circle-item:nth-child(2) {
+        left: -24px;
+    }
+    .integration__circle-item:nth-child(5) {
+        right: -24px;
+    }
+    .integration__circle-item:nth-child(3) {
+        bottom: -24px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

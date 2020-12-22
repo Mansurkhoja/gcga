@@ -1,0 +1,117 @@
+.infografic {
+    overflow: hidden;
+    padding-top: 30px;
+}
+.infografic__title {
+    display: inline-block;
+   
+}
+.infografic__title-small {
+    font-size: 48px;
+}
+.infografic__title-big {
+    font-size: 72px;
+}
+.infografic__content {
+    margin-bottom: 115px;
+    overflow: hidden;
+}
+.infografic__content-top {
+   
+    margin-bottom: 140px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.infografic__content-text {
+    flex: 1 1 30%;
+  
+    p {
+        font-size: 14px;
+        line-height: 1.2;
+        font-family: $font-family-barkentina;
+        color: $color-text-secondary;
+    }
+}
+.infografic__content-title {
+    font-size: 36px;
+    color: $color-text;
+    margin-bottom: 20px;
+    &::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 20px;
+        margin-bottom: 18px;
+        background-image: url(../img/load.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.infografic__content-img {
+    padding-right: 34px;
+    flex: 1 1 70%;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+// .infografic__img-1 {
+// margin-bottom: 95px;
+
+// }
+.infografic__img-2 {
+    position: absolute;
+    top: 66%;
+    right: -31px;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    
+}
+.infografic__img-3 {
+    position: absolute;
+    bottom: -70%;
+    right: 30%;
+    width: 25%;
+    height: auto;
+  z-index: -1;
+}
+// bottom
+.infografic__item-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: $font-family-barkentina;
+    margin-bottom: 20px;
+}
+.infografic__content-bottom {
+    width: 80%;
+}
+.infografic__item-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.infografic__item {
+    display: flex;
+    align-items: baseline;
+    flex: 1 1 33.33333%;
+    padding-bottom: 40px;
+    &--special {
+        display: block;
+        margin-left: 155px;
+        padding-bottom: 0;
+    }
+    &:nth-child(4) {
+        flex: 0 1 auto;
+        padding-bottom: 0;
+    }
+    span {
+        color: $color-text;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .gold-text {
+        font-size: 50px;
+    }
+}

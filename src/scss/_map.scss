@@ -1,0 +1,23 @@
+ .map__title{
+     display: inline-block;
+     position: absolute;
+ }
+ .map__title-big{
+     font-size: 100px;
+ }
+ .map__title-small{
+     font-size: 50px;
+ }
+ .map-interactive{
+     position: relative;
+ }
+ .map-interactive path {
+    fill: #777;
+    stroke: #393939;
+    cursor: pointer;
+    stroke-width: 1;
+    transition: .3s;
+    &:hover{
+        fill: $color-base;
+    }
+}

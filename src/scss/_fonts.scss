@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: local("Bebas Neue Book"), local("BebasNeueBook"),
+        url("../fonts/Bebas_Neue/bebasneuebook.woff2") format("woff2"),
+        url("../fonts/Bebas_Neue/bebasneuebook.woff") format("woff"),
+        url("../fonts/Bebas_Neue/bebasneuebook.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: local("Bebas Neue Regular"), local("BebasNeueRegular"),
+        url("../fonts/Bebas_Neue/bebasneueregular.woff2") format("woff2"),
+        url("../fonts/Bebas_Neue/bebasneueregular.woff") format("woff"),
+        url("../fonts/Bebas_Neue/bebasneueregular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: local("Bebas Neue Bold"), local("BebasNeueBold"),
+        url("../fonts/Bebas_Neue/bebasneuebold.woff2") format("woff2"),
+        url("../fonts/Bebas_Neue/bebasneuebold.woff") format("woff"),
+        url("../fonts/Bebas_Neue/bebasneuebold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Barkentina";
+    src: url("../fonts/Barkentina/subset-Barkentina.woff2") format("woff2"),
+        url("../fonts/Barkentina/subset-Barkentina.woff") format("woff"),
+        url("../fonts/Barkentina/subset-Barkentina.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
